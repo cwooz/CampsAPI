@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sg64TNHDUQg0ZPr+0xO5fPOtpl5Lg8tQeO/JXeCl7RVpAadzoln1r3yOi/MI0YptHcoX1A+c0rnUQ7D1ksYwfg==",
+  "dgSpecHash": "xGT+vOH3MNYOjOWynlC6VpkFsA4MaCC/KaXgk39mpG474hmbOAzYAHECgtF9mP3NEWM+cDBS2Cnzmt9CX6wsRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\woosleyc\\source\\repos\\CoreApiFundamentals-3.1\\src\\CoreCodeCamp.csproj",
+  "projectFilePath": "C:\\Users\\woosleyc\\source\\repos\\CampsAPI\\src\\CoreCodeCamp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\woosleyc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\woosleyc\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

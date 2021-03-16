@@ -5640,11 +5640,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\woosleyc\\source\\repos\\CoreApiFundamentals-3.1\\src\\CoreCodeCamp.csproj",
+      "projectUniqueName": "C:\\Users\\woosleyc\\source\\repos\\CampsAPI\\src\\CoreCodeCamp.csproj",
       "projectName": "CoreCodeCamp",
-      "projectPath": "C:\\Users\\woosleyc\\source\\repos\\CoreApiFundamentals-3.1\\src\\CoreCodeCamp.csproj",
+      "projectPath": "C:\\Users\\woosleyc\\source\\repos\\CampsAPI\\src\\CoreCodeCamp.csproj",
       "packagesPath": "C:\\Users\\woosleyc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\woosleyc\\source\\repos\\CoreApiFundamentals-3.1\\src\\obj\\",
+      "outputPath": "C:\\Users\\woosleyc\\source\\repos\\CampsAPI\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
