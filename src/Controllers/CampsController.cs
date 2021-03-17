@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CoreCodeCamp.Data;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,20 +12,28 @@ namespace CoreCodeCamp.Controllers
     [Route("api/[controller]")]
     public class CampsController : ControllerBase
     {
-        public CampsController()
-        {
+        private readonly ICampRepository _repository;
 
+        public CampsController(ICampRepository repository)
+        {
+            _repository = repository ?? throw new ArgumentNullException(nameof(repository));
         }
 
-        //public object Get()
-        //{
-        //    return new { Moniker = "TJones", Name = "Tom Jones" };
-        //}
 
         [HttpGet(Name = "GetCamps")]
-        public IActionResult GetCamps()
+        public async Task<IActionResult> GetCamps()
         {
-            return Ok(new { Moniker = "TJones", Name = "Tom Jones" });
+            try
+            {
+                var results= await _repository.GetAllCampsAsync(false);
+
+                return Ok(results);
+            }
+            catch (Exception ex)
+            {
+                //return StatusCode(500, "A problem happened while handling your request.");
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
+            }
         }
     }
 }
