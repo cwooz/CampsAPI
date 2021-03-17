@@ -25,7 +25,7 @@ namespace CoreCodeCamp.Controllers
 
 
         [HttpGet(Name = "GetCamps")]
-        public async Task<IActionResult> GetCamps()
+        public async Task<ActionResult<CampModel[]>> GetCamps()
         {
             try
             {
