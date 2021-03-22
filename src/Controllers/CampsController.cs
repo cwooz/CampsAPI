@@ -29,7 +29,7 @@ namespace CoreCodeCamp.Controllers
         {
             try
             {
-                var results= await _repository.GetAllCampsAsync(false);
+                var results = await _repository.GetAllCampsAsync(false);
 
                 //CampModel[] models = _mapper.Map<CampModel[]>(results);
 
